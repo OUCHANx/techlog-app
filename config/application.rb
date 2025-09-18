@@ -12,7 +12,8 @@ module TechlogApp
 
     config.generators do |g|
       g.assets false
-      g.helper false #form_with link_to
-      g.test_framework :rspec,
+      g.helper false # form_with link_to
+      g.test_framework :rspec
+    end
   end
 end
